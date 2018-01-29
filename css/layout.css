@@ -312,104 +312,289 @@ ul#nav li.current a { color: #212121; }
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
 }
 
 .php {
-  	width: 58%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	width: 85%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
 }
+
 .laravel {
-  	width: 65%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+    width: 83%;
+  	-moz-animation: laravel 2s ease;
+  	-webkit-animation: laravel 2s ease;
 }
-.javascript {
-  	width: 55%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.jquery {
+
+.symfony {
   	width: 60%;
+  	-moz-animation: symfony 2s ease;
+  	-webkit-animation: symfony 2s ease;
+}
+
+.html5 {
+    width: 92%;
+    -moz-animation: html5 2s ease;
+    -webkit-animation: html5 2s ease;
+}
+
+.css {
+  	width: 84%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.angularjs {
-  	width: 70%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+
+.javascript {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-.css {
-  	width: 76%;
+
+.jquery {
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 
-.html5 {
-    width: 80%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+.vuejs {
+  	width: 50%;
+  	-moz-animation: vuejs 2s ease;
+  	-webkit-animation: vuejs 2s ease;
 }
 
-@-moz-keyframes photoshop {
+.angularjs {
+  	width: 75%;
+  	-moz-animation: angularjs 2s ease;
+  	-webkit-animation: angularjs 2s ease;
+}
+
+.xamarin {
+  	width: 62%;
+  	-moz-animation: xamarin 2s ease;
+  	-webkit-animation: xamarin 2s ease;
+}
+
+.seo {
+  	width: 80%;
+  	-moz-animation: seo 2s ease;
+  	-webkit-animation: seo 2s ease;
+}
+
+.analytics {
+  	width: 82%;
+  	-moz-animation: analytics 2s ease;
+  	-webkit-animation: analytics 2s ease;
+}
+
+.adsense {
+  	width: 85%;
+  	-moz-animation: adsense 2s ease;
+  	-webkit-animation: adsense 2s ease;
+}
+
+@keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+@-webkit-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+@-moz-keyframes php {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+@keyframes laravel {
+  0%   { width: 0px;  }
+  100% { width: 83%;  }
+}
+
+@-webkit-keyframes laravel {
+  0%   { width: 0px;  }
+  100% { width: 83%;  }
+}
+
+@-moz-keyframes laravel {
+  0%   { width: 0px;  }
+  100% { width: 83%;  }
+}
+
+@keyframes symfony {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes symfony {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+
+@-moz-keyframes symfony {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 60%;  }
 }
-@-webkit-keyframes wordpress {
+
+@keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 92%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
+
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
+  100% { width: 92%;  }
+}
+
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 92%;  }
+}
+
+@keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 84%;  }
+}
+
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 84%;  }
+}
+
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 84%;  }
+}
+
+@keyframes javascript {
+  0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@keyframes vuejs {
+  0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+@-webkit-keyframes vuejs {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-moz-keyframes vuejs {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@keyframes angularjs {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@-webkit-keyframes angularjs {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@-moz-keyframes angularjs {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+
+@keyframes xamarin {
+  0%   { width: 0px;  }
+  100% { width: 62%;  }
+}
+
+@-webkit-keyframes xamarin {
+  0%   { width: 0px;  }
+  100% { width: 62%;  }
+}
+
+@-moz-keyframes xamarin {
+  0%   { width: 0px;  }
+  100% { width: 62%;  }
+}
+
+@keyframes seo {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-webkit-keyframes seo {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@-moz-keyframes seo {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+
+@keyframes analytics {
+  0%   { width: 0px;  }
+  100% { width: 82%;  }
+}
+
+@-webkit-keyframes analytics {
+  0%   { width: 0px;  }
+  100% { width: 82%;  }
+}
+
+@-moz-keyframes analytics {
+  0%   { width: 0px;  }
+  100% { width: 82%;  }
+}
+
+@keyframes adsense {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+@-webkit-keyframes adsense {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+
+@-moz-keyframes adsense {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -638,7 +823,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -662,7 +847,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1011,4 +1196,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
